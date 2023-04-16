@@ -1,0 +1,186 @@
+form {
+    margin: 40px 0;
+    justify-content: center;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+form label,
+form fieldset {
+    display: block;
+    border: none;
+    font-size: 20px;
+
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 25px;
+    width: 700px;
+}
+
+.contato {
+    margin-right: 10px;
+}
+
+.radio-padrao {
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table {
+    padding: 30px;
+}
+
+thead {
+    background: #555;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid;
+    padding: 15px;
+}
+
+
+
+@media (max-width: 780px) {
+    form {
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    form label,
+    form fieldset {
+        display: block;
+        border: none;
+        font-size: 20px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .input-padrao {
+        display: block;
+        margin: 0 0 10px;
+        padding: 10px 25px;
+    }
+
+    .radio-padrao {
+        margin: 20px 0px;
+        padding: 20px;
+    }
+
+
+    .enviar {
+        width: 400px;
+        padding: 15px 0;
+        background: orange;
+        color: white;
+        font-weight: bold;
+        border: 1px solid;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    table {
+        padding: 30px;
+    }
+
+    thead {
+        background: #555;
+        color: white;
+        font-weight: bold;
+    }
+
+    td,
+    th {
+        border: 1px solid;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    form {
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+        width: 100%;
+    }
+
+    form label,
+    form fieldset {
+        display: block;
+        font-size: 20px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .sujestao {
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+
+    .input-padrao {
+        display: inline;
+        margin: 0 0 10px;
+        padding: 10px 25px;
+    }
+
+    .radio-padrao {
+        margin: 20px 0px;
+        padding: 20px;
+    }
+
+
+    .enviar {
+        width: 100%;
+        padding: 15px 0;
+        background: orange;
+        color: white;
+        font-weight: bold;
+        border: 1px solid;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .enviar:hover {
+        transition: 1s all;
+        background-color: rgb(250, 67, 12);
+        transform: scale(1.01);
+    }
+
+    table {
+        margin: 0 auto;
+        padding-top: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    thead {
+        background: #555;
+        color: white;
+        font-weight: bold;
+    }
+
+    td,
+    th {
+        border: 1px solid;
+        padding: 15px;
+    }
+}

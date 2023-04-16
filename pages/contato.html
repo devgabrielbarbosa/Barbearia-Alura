@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contato.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <title>Contato - Barbearia Alura</title>
+</head>
+<body>
+    <header>
+        <h1>
+           <a href="../index.html"><img src="../img/logo.png" alt="Logo da Barbearia Alura"></a> 
+        </h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Principal</a></li>
+                <li><a href="../pages/produtos.html">Produtos</a></li>
+                <li><a href="./contato.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="./agradecimento.html">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" class="input-padrao" required>
+
+            <label for="Sobrenome">Sobrenome</label>
+            <input type="text" id="Sobrenome" name="Sobrenome"  class="input-padrao"required>
+            
+            
+            <label for="Cpf">CPF</label>
+            <input type="text" id="Cpf" name="Cpf" placeholder="000.000.000.00" class="input-padrao" required >
+                
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="exemplo123@gmail.com"  class="input-padrao" required>
+    
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" class="input-padrao" required>
+
+            <label for="Mensagem">Mensagem</label>
+            <textarea name="Mensagem" id="Mensagem"  class="input-padrao" cols="30" rows="10" required></textarea>
+           
+            <fieldset class="radio-padrao">
+
+                <legend>Como preferi o nosso contato?</legend>
+        
+                    <label  for="radio-email"><input class="contato" type="radio" name="contato" value="email" id="radio-email">Email</label>
+                    
+                    <label for="radio-ligacao"><input  class="contato" type="radio" name="contato"value="ligacao" id="radio-ligacao">Ligação</label>
+                 
+                    <label  for="radio-WhatsApp"><input class="contato" type="radio" name="contato" value="Whats App" id="radio-WhatsApp" checked>WhatsApp</label>
+            </fieldset>
+
+            <fieldset class="radio-padrao">
+                <legend>
+                    Qual o horário prefere ser atendido?
+                </legend>
+                <select name="Horario" id="">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+                <label class="sujestao" for="">
+                    <input type="checkbox">Gotaria de receber as nossa novidades por Email?
+                </label>
+            </fieldset>  
+
+            <input type="submit" class="enviar" value="Enviar o Formulário">
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Segunda-Feira</td>
+                    <td>8h ~ 20h </td>
+                </tr>
+                <tr>
+                    <td>Quarta-Feiria</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta-Feiria</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Sabados e  Feriados</td>
+                    <td>8h ~ 12h</td>
+                </tr>
+            </tbody>
+   
+        </table>
+    </main>
+
+    <footer class="rodape">
+        <img src="../img/logo-branco.png" alt="Logo da Barberria Alura">
+        <p>Copyritght Barbearia Alura - 2023</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,293 @@
+.principal {
+    padding: 20px;
+    line-height: 2rem;
+}
+
+.titulo-principal {
+    font-size: 3rem;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+
+.baner {
+    width: 100%;
+}
+
+#missao strong {
+    color: red;
+}
+
+.itens {
+    line-height: 1.5;
+    padding: 10px;
+    text-align: left;
+    color: #0a0a0a;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.itens::before {
+    content: "★";
+    margin: 5px;
+}
+
+.beneficios {
+    padding: 20px;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 0 20px;
+}
+
+.mapa {
+    padding: 3em 0;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.mapa p {
+    margin: 0 0 2rem;
+    text-align: center;
+}
+
+.video {
+    width: 560px;
+    justify-content: center;
+    margin: 30px;
+    padding: 30px;
+}
+
+.container-beneficios h2 {
+    text-align: center;
+}
+
+
+
+.container-beneficios {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container-beneficios ul {
+    display: inline-block;
+    text-align: left;
+    line-height: 16px;
+    width: 60%;
+    list-style: none;
+}
+
+
+.imagembeneficios {
+    width: 50%;
+    border-radius: 5px;
+}
+
+
+
+
+
+@media (max-width: 780px) {
+
+    .principal {
+        line-height: 30px;
+    }
+
+    .titulo-principal {
+        font-size: 2rem;
+        text-align: center;
+
+    }
+
+    #missao {
+        font-size: 20px;
+    }
+
+    .baner {
+        width: 100%;
+        height: 300px;
+    }
+
+    #missao strong {
+        color: red;
+    }
+
+    .itens {
+        line-height: 1.5;
+        padding: 10px;
+        text-align: left;
+        color: #0a0a0a;
+    }
+
+    .itens:first-child {
+        font-weight: bold;
+    }
+
+    .itens::before {
+        content: "★";
+        margin: 5px;
+    }
+
+    .beneficios {
+        padding: 20px;
+    }
+
+    .utensilios {
+        width: 150px;
+        float: left;
+        margin: 0 20px 0 20px;
+    }
+
+    .mapa {
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .mapa p {
+        text-align: center;
+    }
+
+    .video {
+        width: 100%;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .container-beneficios h2 {
+        text-align: center;
+        display: grid;
+    }
+
+
+
+    .container-beneficios {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .container-beneficios ul {
+        display: inline-block;
+        text-align: left;
+        line-height: 16px;
+        width: 60%;
+        list-style: none;
+    }
+
+
+    .imagembeneficios {
+        width: 50%;
+        border-radius: 5px;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+
+    .principal {
+        line-height: 30px;
+    }
+
+    .titulo-principal {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    #missao {
+        font-size: 20px;
+    }
+
+    .baner {
+        width: 100%;
+        height: 400px;
+    }
+
+    #missao strong {
+        color: red;
+    }
+
+    .itens {
+        line-height: 1.5;
+        padding: 10px;
+        text-align: left;
+        color: #0a0a0a;
+    }
+
+    .itens:first-child {
+        font-weight: bold;
+    }
+
+    .itens::before {
+        content: "★";
+        margin: 5px;
+    }
+
+    .beneficios {
+        padding: 20px;
+    }
+
+    .utensilios {
+        width: 150px;
+        float: left;
+        margin: 0 20px 0 20px;
+    }
+
+    .mapa {
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .mapa p {
+        text-align: center;
+    }
+
+    .video {
+        width: 100%;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .container-beneficios h2 {
+        text-align: center;
+        display: grid;
+    }
+
+
+
+    .container-beneficios {
+        display: grid;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .container-beneficios ul {
+        display: inline-block;
+        text-align: left;
+        line-height: 16px;
+        width: 100%;
+        list-style: none;
+    }
+
+
+    .imagembeneficios {
+        width: 100%;
+        height: 300px;
+        border-radius: 5px;
+    }
+}

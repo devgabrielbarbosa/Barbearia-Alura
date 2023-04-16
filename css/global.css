@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 100% !important;  
+}
+
+body{
+    background: linear-gradient( #fff, rgb(255, 255, 255));
+}
+
+header{
+    background-color: #f3f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+nav ul{
+    display: flex;
+    text-transform: uppercase;
+    gap: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+.menu{
+    color: #fff;
+    display: inline-block;
+    padding: 16px 0px;
+    font-size: 18px;
+}
+
+.menu a::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    background: #000;
+    transition: 1s;
+    position: relative;
+}
+
+.menu a:hover::after {
+    width: 100%;
+}
+
+nav a{
+    color: #000;
+    font-weight: bolder;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+main {
+    width: 1024px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    background: url("bg.jpg");
+}
+
+.rodape{
+    background-color: #000;
+    color: white;
+    padding: 40px 0px; 
+
+}
+
+.rodape p{
+    font-size: 30px;
+}
+
+
+@media(max-width: 780px){
+    nav ul{
+        display: flex ;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    nav a{
+        color: #000;
+        font-weight: bolder;
+        font-size: 22px;
+        text-decoration: none;
+    }
+
+    footer{
+        width: auto;
+        background-color: black;
+        text-align: center;
+        background: url("bg.jpg");
+    }
+    
+    .rodape{
+        background-color: #000;
+        color: white;
+        padding: 40px 0px; 
+    
+    }
+    
+    .rodape p{
+        font-size: 30px;
+    }
+}
+
+
+@media(max-width: 480px){
+    nav ul{
+        display: grid ;
+        grid-template-columns: 1fr;
+    }
+
+    nav a{
+        color: #000;
+        font-weight: bolder;
+        font-size: 22px;
+        text-decoration: none;
+    }
+
+    footer{
+        width: auto;
+        background-color: black;
+        text-align: center;
+        background: url("bg.jpg");
+        text-align: center;
+    }
+    
+    .rodape{
+        background-color: #000;
+        color: white;
+        padding: 40px 0px; 
+    
+    }
+    
+    .rodape p{
+        font-size: 20px;
+    }
+}
